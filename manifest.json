@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Bookmark Alert",
+  "version": "1.0",
+  "description": "Shows an alert when a bookmark is created",
+  "permissions": [
+    "bookmarks",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+} 
